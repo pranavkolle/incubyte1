@@ -48,12 +48,12 @@ class StringCalculator {
 			  	  		{
 			  	  			negatives.add(a);
 			  	  		}
-			  	  		else
+			  	  		else if(a<=1000)
 			  	  		{
-				  	  		sum = sum + a;	
+				  	  		sum = sum + a;		
 			  	  		}
-			  	  		cont = true;
 						temp = "";
+			  	  		cont = true;
 			  		}
 			  		if(!cont)
 			  		{
@@ -75,11 +75,11 @@ class StringCalculator {
 		  	{
 		  		negatives.add(a);
 		  	}
-		  	else
+		  	else if(a<=1000)
 		  	{
-		  		sum = sum + a;  	  		
+		  		sum = sum + a;
 		  	}
-			temp = "";
+			temp = "";	
 			int n_neg = negatives.size();
 			if(n_neg>0)
 			{
